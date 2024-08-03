@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+width: 100vw;
+height: 100vh;
+}
+
+#main{
+display: flex;
+width: 100%;
+height: 100%;
+justify-content:center;
+}
+
+#field{
+display: flex;
+flex-wrap: wrap;
+}
+
+@media all and (orientation:landscape) {
+#field{
+width: 100vh;
+}
+
+#main{
+flex-direction: row;
+}
+}
+
+@media all and (orientation:portrait) {
+#field{
+height: 100vw;
+}
+
+#main{
+flex-direction: column;
+}
+}
+
+.tile {
+display: flex;
+/* width: 100%; */
+width: 25%;
+justify-content: center;
+align-items: center;
+aspect-ratio: 1/1; 
+}
+
+#malika{
+background-color: olive;
+}
+
+#liali{
+background-color: red;
+}
+#blue {
+background-color: lightblue
+}
+#silver {
+background-color:silver
+}
+#purple{
+background-color:purple
+}
+#pink {
+background-color: pink
+}
+#indigo {
+background-color:indigo}
+#brown{
+background-color:brown}
+#lilac{
+background-color: lavender}
+#mustard {
+background-color: goldenrod}
+#mint {
+background-color:mintcream}
+#yellow{
+background-color:yellow}
+#salmon{
+background-color:salmon}
+#charcoal{
+background-color:gray}
+#cyan{
+background-color:cyan}
+#orange{
+background-color:orange
+}
