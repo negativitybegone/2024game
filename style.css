@@ -44,15 +44,15 @@ body{
     aspect-ratio: 1/1;
 }
 
-.tile-2 {background-color: #d8ecf5;}
-.tile-4 {background-color: #bde0f1;}
-.tile-8 {background-color: #a8ddf5;}
-.tile-16 {background-color: #a8baf5;}
-.tile-32 {background-color: #93aaf5;}
-.tile-64 {background-color: #80a3fd;}
-.tile-128 {background-color: #d7caf3;}
-.tile-256 {background-color: #ccb8f6;}
-.tile-512 {background-color: #bb9ff8;}
-.tile-1024 {background-color: #eccdb5;}
-.tile-2048 {background-color: #f0bfba;}
+.tile-2 {background-color: #fbf8cc;}
+.tile-4 {background-color: #fde4cf;}
+.tile-8 {background-color: #ffcfd2;}
+.tile-16 {background-color: #f1c0e8;}
+.tile-32 {background-color: #cfbaf0;}
+.tile-64 {background-color: #a3c4f3;}
+.tile-128 {background-color: #90dbf4;}
+.tile-256 {background-color: #80ed99;}
+.tile-512 {background-color: #b9fbc0 ;}
+.tile-1024 {background-color: #ffe66d;}
+.tile-2048 {background-color: #ffaaa5;}
 .tile-0 {background-color: #d3d7d6;}
