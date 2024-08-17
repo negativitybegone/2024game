@@ -38,13 +38,18 @@ body{
 
 .tile {
     display: flex;
-    width: 25%;
+    width: 20%;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     aspect-ratio: 1/1;
+    border: 0.1rem solid;
+    padding: 0.2em;
+    border-radius: 15px;
+    font: 10vmin sans-serif;
+    font-family: cursive;
 }
 
-.tile-2 {background-color: #fbf8cc;}
+.tile-2 {background-color: #f9f5b8;}
 .tile-4 {background-color: #fde4cf;}
 .tile-8 {background-color: #ffcfd2;}
 .tile-16 {background-color: #f1c0e8;}
@@ -55,4 +60,4 @@ body{
 .tile-512 {background-color: #b9fbc0 ;}
 .tile-1024 {background-color: #ffe66d;}
 .tile-2048 {background-color: #ffaaa5;}
-.tile-0 {background-color: #d3d7d6;}
+.tile-0 {background-color: beige;}
